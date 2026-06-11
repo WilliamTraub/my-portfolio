@@ -1,0 +1,57 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid rgba(240, 237, 228, 0.18);
+  border-left: 3px solid var(--green);
+  border-radius: 4px;
+  padding: 1.25rem;
+  transition: border-left-color 0.15s, transform 0.15s;
+}
+
+.card:hover {
+  border-left-color: var(--yellow);
+  transform: translateY(-2px);
+}
+
+.cardTitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--chalk);
+  margin-bottom: 0.4rem;
+}
+
+.cardDesc {
+  font-size: 0.83rem;
+  color: var(--chalk-dim);
+  line-height: 1.65;
+  margin-bottom: 0.7rem;
+}
+
+.cardTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.cardTag {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.68rem;
+  padding: 0.15rem 0.45rem;
+  background: var(--surface2);
+  border-radius: 2px;
+  color: var(--green);
+}
+
+.cardLink {
+  display: inline-block;
+  margin-top: 0.75rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  color: var(--yellow);
+}

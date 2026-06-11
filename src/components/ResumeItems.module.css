@@ -1,0 +1,68 @@
+.item {
+  margin-bottom: 2.5rem;
+}
+
+.item:last-child {
+  margin-bottom: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.2rem;
+}
+
+.itemTitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--chalk);
+}
+
+.date {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.72rem;
+  color: var(--green);
+}
+
+.sub {
+  font-size: 0.88rem;
+  color: var(--chalk-dim);
+  margin-bottom: 0.5rem;
+}
+
+.sub strong {
+  color: var(--yellow);
+  font-weight: 500;
+}
+
+.bullets {
+  list-style: none;
+  padding: 0;
+}
+
+.bullets li {
+  font-size: 0.88rem;
+  color: rgba(240, 237, 228, 0.7);
+  padding: 0.18rem 0 0.18rem 1.2rem;
+  position: relative;
+  line-height: 1.65;
+}
+
+.bullets li::before {
+  content: '·';
+  position: absolute;
+  left: 0;
+  color: var(--yellow);
+  font-size: 1.1rem;
+  line-height: 1.4;
+}
+
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+  }
+}
