@@ -18,7 +18,7 @@ export default function Hero() {
         <a href="mailto:traub.w@northeastern.edu" className={styles.primary}>traub.w@northeastern.edu</a>
         <a href="https://github.com/WilliamTraub" target="_blank" rel="noreferrer">github</a>
         <a href="https://www.linkedin.com/in/william-traub/" target="_blank" rel="noreferrer">linkedin</a>
-        <a href="public/resumes.pdf">resume.pdf</a>
+        <a href={`${import.meta.env.BASE_URL}resumes.pdf`}>resume.pdf</a>
       </div>
     </div>
   )

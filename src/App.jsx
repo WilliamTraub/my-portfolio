@@ -4,6 +4,7 @@ import Education from './components/Education'
 import Experience from './components/Experience'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
+import About from './components/About'
 
 export default function App() {
   return (
@@ -18,6 +19,8 @@ export default function App() {
       <Skills />
       <hr />
       <Projects />
+      <hr />
+      <About />
       <footer style={{
         textAlign: 'center',
         padding: '3rem 2rem',
