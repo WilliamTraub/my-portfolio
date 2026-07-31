@@ -9,23 +9,17 @@ const projects = [
     link: null,
   },
   {
-    title: 'dimLi: Dimension Formula',
-    desc: 'Implementation of a dimension formula for simple modules in both OCaml and Python, developed during the Diagrammatic Algebras REU with modular, close-to-algorithm structure.',
-    tags: ['OCaml', 'Python', 'Representation Theory'],
-    link: null,
-  },
-  {
     title: 'TerraNova',
     desc: 'Neural network for environmental brownfield site classification. Achieved an 18% accuracy improvement over the baseline model.',
     tags: ['Python', 'ML', 'Neural Networks'],
-    link: null,
+    link: 'https://github.com/WilliamTraub/TerraNova',
   },
   {
-    title: 'OCaml Compiler & Type Systems',
-    desc: 'Compiler and type system work including SignTheory, MiniPython, a CNF SAT solver, and a propositional logic system.',
-    tags: ['OCaml', 'Compilers', 'Type Theory'],
-    link: null,
-  },
+  title: 'Public Class Notes',
+  desc: 'An open repository of notes from coursework in mathematics and computer science, covering topics including group theory, linear algebra, algorithms, and programming languages.',
+  tags: ['LaTeX', 'Mathematics', 'CS Theory'],
+  link: 'https://github.com/WilliamTraub/Public-Classnotes',
+},
 ]
 
 export default function Projects() {

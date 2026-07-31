@@ -3,20 +3,24 @@ import styles from './Skills.module.css'
 
 const skillGroups = [
   {
-    label: 'Languages',
-    tags: ['OCaml', 'Python', 'Java', 'Lean 4', 'LaTeX', 'PHP', 'JavaScript'],
+    label: 'Programming Languages',
+    tags: ['Python', 'Java', 'JavaScript', 'OCaml', 'Racket', 'C++', 'Lean 4', 'LaTeX'],
+  },
+  {
+    label: 'Data & Libraries',
+    tags: ['NumPy', 'Pandas', 'SciPy', 'Matplotlib'],
+  },
+  {
+    label: 'Tools',
+    tags: ['Git', 'React', 'Docker', 'WordPress'],
   },
   {
     label: 'Mathematics',
-    tags: ['Abstract Algebra', 'Category Theory', 'Lie Theory', 'Linear Algebra', 'Representation Theory'],
+    tags: ['Real Analysis', 'Linear Algebra', 'Abstract Algebra', 'Discrete Mathematics', 'Mathematical Logic', 'Probability & Statistics', 'Group Theory', 'Differential Equations', 'Category Theory', 'Lie Theory', 'Representation Theory'],
   },
   {
     label: 'Theory & Formal Methods',
     tags: ['Type Theory', 'Formal Verification', 'PLT', 'Lean 4 Proofs', 'Lambda Calculus'],
-  },
-  {
-    label: 'Tools & Frameworks',
-    tags: ['React', 'Git', 'Docker', 'WordPress', 'Arch Linux', 'JUnit'],
   },
 ]
 

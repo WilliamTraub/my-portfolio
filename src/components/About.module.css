@@ -1,0 +1,11 @@
+.text {
+  font-size: 1rem;
+  color: var(--chalk-dim);
+  line-height: 1.8;
+  max-width: 660px;
+  margin-bottom: 1.25rem;
+}
+
+.text:last-child {
+  margin-bottom: 0;
+}
