@@ -9,7 +9,7 @@ export default function Hero() {
         <span className={styles.keyword}>Proof.</span> See below. <span className={styles.value}>∎</span>
       </div>
       <h1 className={styles.name}>
-        William<br /><em>Traub.</em>
+        William (Sonder)<br /><em>Traub.</em>
       </h1>
       <p className={styles.tagline}>
         CS + Mathematics at Northeastern. I work at the intersection of formal verification, programming language theory, and pure mathematics.
